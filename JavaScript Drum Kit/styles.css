@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+    background: url('D:/Installed softwares/30DaysOfJS/01 - JavaScript Drum Kit/images/back1.jpg') bottom center;
+    background-size: cover;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    border: .4rem solid rgb(0, 255, 38);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .7rem white;
+}
+
+kbd{
+    color: rgb(255, 255, 0);
+    display: block;
+    font-size: 4rem;
+}
+
+.sound{
+    font-size: 1.5rem;
+    color: rgb(0, 255, 238);
+}
+
+.playing{
+    transform: scale(1.2);
+    border-color: rgb(255, 174, 0);
+    box-shadow: 0 0 2rem rgb(255, 174, 0);
+    border-radius: 20%;
+}
