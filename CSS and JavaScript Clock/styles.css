@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+    background: url('D:/Installed softwares/30DaysOfJS/CSS and JavaScript Clock/images/clock4.jpg') bottom center;
+    background-size: cover;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 10px;
+    box-shadow:
+        0 0 0 4px rgba(252, 3, 3, 0.4),
+        0 0 0 3px rgba(3, 252, 49, 0.5) inset,
+        0 0 10px white inset,
+        0 0 10px white;
+}
+
+.clock-face{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform: translateY(-3px);
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    top: 50%;
+    background: black;
+    position: absolute;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.93, -0.85, 0.18, 1.9);
+}
+
+.second-hand {
+    width: 45%;
+    left: 5%;
+    box-shadow: 0 0 6px rgb(3, 177, 252);
+}
+
+.minute-hand {
+    width: 40%;
+    left: 10%;
+    box-shadow: 0 0 4px rgb(173, 3, 252);
+}
+
+.hour-hand {
+    width: 30%;
+    left: 20%;
+    box-shadow: 0 0 4px rgb(252, 3, 219);
+}
