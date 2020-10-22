@@ -1,7 +1,7 @@
 :root{
     --colors: #4284f5;
     --spacing: 10px;
-    --blur: 2px;
+    --blur: 5px;
 }
 
 html{
@@ -16,6 +16,26 @@ body{
     font-family: sans-serif;
 }
 
+img.night{
+    height: 75rem;
+    width: 140rem;
+    margin-top: 2.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(var(--blur));
+}
+
+.over{
+    position: absolute;
+    top: 5rem;
+    left: 27.5rem;
+}
+
+.slider::-ms-fill-lower{
+    background-color: green;
+}
+
 .js{
     color: var(--colors);
 }
@@ -24,12 +44,11 @@ h3{
     margin: 1.2rem 2rem 0.5rem;
 }
 
-img{
+img.city{
     max-height: 50rem;
     max-width: 80rem;
     padding: var(--spacing);
     background: var(--colors);
-    filter: blur(var(--blur));
 }
 
 .controls{
