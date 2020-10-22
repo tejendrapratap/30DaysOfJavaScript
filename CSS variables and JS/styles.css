@@ -32,10 +32,6 @@ img.night{
     left: 27.5rem;
 }
 
-.slider::-ms-fill-lower{
-    background-color: green;
-}
-
 .js{
     color: var(--colors);
 }
