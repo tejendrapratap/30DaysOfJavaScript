@@ -1,0 +1,41 @@
+:root{
+    --colors: #4284f5;
+    --spacing: 10px;
+    --blur: 2px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    text-align: center;
+    background: rgb(48, 10, 43);
+    color: white;
+    font-size: 5rem;
+    font-family: sans-serif;
+}
+
+.js{
+    color: var(--colors);
+}
+
+h3{
+    margin: 1.2rem 2rem 0.5rem;
+}
+
+img{
+    max-height: 50rem;
+    max-width: 80rem;
+    padding: var(--spacing);
+    background: var(--colors);
+    filter: blur(var(--blur));
+}
+
+.controls{
+    margin: 1rem 2rem 3rem;
+}
+
+input {
+    width: 15rem;
+}
