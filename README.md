@@ -1,4 +1,4 @@
-"# 30DaysOfJavaScript" 
+# 30DaysOfJavaScript
 
 Day 1: Making a JavaScript Drum
 Day 2: Building an analog Clock using CSS and JavaScript
