@@ -1,0 +1,22 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgba(13, 27, 71, 1);
+}
+
+h3{
+    margin: 20rem 50rem;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    width: 50rem;
+    border: 0.5rem solid rgb(18, 255, 26);
+    border-radius: 3rem;
+    font-size: 2rem;
+}
+
+h3:hover{
+    border: 0.5rem solid rgb(229, 255, 0);
+}
